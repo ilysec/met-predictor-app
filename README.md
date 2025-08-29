@@ -1,1 +1,1 @@
-# met_predictor_app
+# met-predictor-app
