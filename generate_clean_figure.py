@@ -76,7 +76,7 @@ axes[1,1].axvline(x=5, color='red', linestyle='--', alpha=0.7)
 plt.tight_layout()
 
 # Save the figure
-output_path = '/Users/ilyasseckin/VSCode/met-predictor-app/report/figures/04_time_window_analysis.png'
+output_path = 'report/figures/04_time_window_analysis.png'
 plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='white')
 print(f"✅ Clean time window analysis figure saved to: {output_path}")
 
