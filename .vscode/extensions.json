@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-toolsai.jupyter",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.pylint",
+        "ms-vscode.swift",
+        "ms-vscode.xcode-tools",
+        "redhat.vscode-yaml",
+        "ms-vscode.vscode-json"
+    ]
+}

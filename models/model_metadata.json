@@ -1,0 +1,37 @@
+{
+  "model_name": "Random Forest",
+  "window_size": 100,
+  "window_duration_seconds": 5.0,
+  "feature_columns": [
+    "mag_mean",
+    "mag_std",
+    "mag_max",
+    "mag_range",
+    "x_mean",
+    "x_std",
+    "y_mean",
+    "y_std",
+    "z_mean",
+    "z_std"
+  ],
+  "accuracy": 1.0,
+  "inference_time_ms": 0.059229987008231025,
+  "class_mapping": {
+    "0": "Sedentary",
+    "1": "Light",
+    "2": "Moderate",
+    "3": "Vigorous"
+  },
+  "classes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "sampling_rate_hz": 20,
+  "mobile_suitable": true,
+  "stability_improvement": "4.0x over instant predictions",
+  "training_date": "2025-08-30T22:02:11.685566",
+  "developed_with": "Claude Sonnet 4",
+  "challenge": "ADAMMA 2025"
+}

@@ -1,0 +1,28 @@
+{
+  "feature_names": [
+    "mean_x",
+    "mean_y",
+    "mean_z",
+    "mean_magnitude",
+    "std_x",
+    "std_y",
+    "std_z",
+    "std_magnitude",
+    "min_magnitude",
+    "max_magnitude",
+    "rms_x",
+    "rms_y",
+    "rms_z",
+    "zero_crossings_x",
+    "magnitude_p25",
+    "magnitude_p75"
+  ],
+  "met_classes": {
+    "0": "Sedentary",
+    "1": "Light",
+    "2": "Moderate",
+    "3": "Vigorous"
+  },
+  "model_type": "RandomForestClassifier",
+  "n_features": 16
+}
